@@ -1,0 +1,28 @@
+{
+ "extends": "./node_modules/astro/tsconfigs/strict.json"
+,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "strictNullChecks": true,
+    "allowJs": false,
+    "declaration": true,
+    "types": ["astro/client"],               // ✅ this is the missing line
+    "plugins": [
+      { "name": "@astrojs/ts-plugin" }
+    ],
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@assets/*": ["src/assets/*"],
+      "@constants/*": ["src/constants/*"],
+      "@utils/*": ["src/utils/*"],
+      "@i18n/*": ["src/i18n/*"],
+      "@layouts/*": ["src/layouts/*"],
+      "@/*": ["src/*"]
+    }
+  },
+  "include": [
+    "src/**/*",
+    "astro.config.*",
+    "src/content/config.ts"                 // ✅ include content schema for typing
+  ]
+}
