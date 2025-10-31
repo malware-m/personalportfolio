@@ -1,7 +1,7 @@
 ---
-title: 'updated post'
+title: 'post are working'
 published: 2023-10-01
-description: 'i think this will be work in live demo'
+description: 'new post live website pr show ho rahi ha'
 tags: [Markdown, Blogging, Demo]
 category: Examples
 draft: false
