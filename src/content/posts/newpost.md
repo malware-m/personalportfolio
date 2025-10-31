@@ -1,9 +1,9 @@
 ---
-title: "arslan bkl"
+title: 'updated post'
 published: 2023-10-01
-description: "A simple example of a Markdown blog post."
-tags: ["Markdown", "Blogging", "Demo"]
-category: "Examples"
+description: 'i think this will be work in live demo'
+tags: [Markdown, Blogging, Demo]
+category: Examples
 draft: false
 ---
 
